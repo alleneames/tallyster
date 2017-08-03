@@ -1,0 +1,149 @@
+.custom-navbar {
+    background-color: rgba(0, 0, 0, .7);
+    padding-top: 21px;
+    padding-bottom: 10px;
+    border: none !important;
+    position: fixed;
+    
+}
+
+#nav-image {
+    height: 85px;
+    margin-top: -5px;
+    opacity: .8;
+}
+
+#nav-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em
+}
+
+
+.navbar li a {
+    color: white !important;
+    font-size: 18px;
+    transition: color 1s ease-in-out;
+    margin-top: -15px;
+
+}
+
+.navbar li a:hover {
+        color: blue !important; 
+        
+}
+
+.custom-navbar {
+    text-align: center
+}
+
+body {
+    height: 1000px;
+    margin-top: 250px;
+}
+
+.input input {
+    width: 300px
+}
+
+
+.custom-button {
+    text-align: center
+}
+
+.custom-button button {
+    background-color: white;
+    color: black;
+    border: 2px solid grey; 
+    margin-top: 40px;
+    transition: 1s ease-in-out;
+}
+
+.custom-button button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.poli-image {
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.custom-col {
+    text-align: center;
+}
+
+.poli-image #remove {
+    float: right;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    opacity: .2;
+    transition: width 2s, height 2s, opacity 1s, font-size 2s, transform 2s;
+}
+
+.poli-image #remove:hover {
+    width: 100%;
+    height: 200px;
+    opacity: .7;
+    font-size: 150px;
+    transform: rotate(180deg);
+}
+#upvote {
+    background-color: green;
+    border: none;
+    width: 20px;
+    float: left;
+    
+}
+
+#downvote{
+    background-color: red;
+    border: none;
+    float: right;
+    
+}
+
+#edit {
+    width: 100%;
+    color: black;
+    border: 1px;
+    transition: 1s ease-in-out;
+
+   
+}
+#edit:hover {
+    background-color: grey;
+    color: white;
+}
+
+.upvote {
+    color: black;
+    text-shadow: 1px 1px grey;
+    float: left;
+
+
+}
+
+.downvote {
+    color: black;
+    text-shadow: 1px 1px grey;
+    float: right;
+
+
+}
+
+.titles {
+    margin-top: 15px
+}
+
+.test {
+    display: inline;
+    bottom: 0;
+    margin-top: 0px
+}
